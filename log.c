@@ -57,7 +57,9 @@
 
 #include "log-internal.h"
 
-static void warn_helper_(int severity, const char *errstr, const char *fmt,
+change something
+
+static void wa_helper_(int severity, const char *errstr, const char *fmt,
     va_list ap);
 static void event_log(int severity, const char *msg);
 static void event_exit(int errcode) EV_NORETURN;
